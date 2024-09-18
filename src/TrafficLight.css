@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.traffic-light {
+  height: 400px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: rgb(20, 19, 19);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.light {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.light {
+  background-color: grey;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
